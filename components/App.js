@@ -56,10 +56,10 @@ export default class App extends Component {
     let publicKey = await window?.nostr?.getPublicKey()
 
     // workaround for now
-    if (navigator.userAgent.indexOf("Firefox") > 0) {
-      publicKey = publicKey.split(/(..)/g).filter(i => i).map(i => String.fromCharCode(parseInt(i, 16
-      ))).join('')
-    }
+    // if (navigator.userAgent.indexOf("Firefox") > 0) {
+    //   publicKey = publicKey.split(/(..)/g).filter(i => i).map(i => String.fromCharCode(parseInt(i, 16
+    //   ))).join('')
+    // }
 
     di.data.publicKey = publicKey
 
