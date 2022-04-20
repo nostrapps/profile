@@ -1,0 +1,2 @@
+# spuxt
+spux template

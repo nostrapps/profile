@@ -1,0 +1,28 @@
+{
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "cross-env TAILWIND_MODE=watch vite",
+    "build": "cross-env TAILWIND_MODE=build vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.5",
+    "vitawind": "^2.2.4",
+    "vite": "^2.4.4"
+  },
+  "name": "spuxt",
+  "description": "template",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nostrapps/profile.git"
+  },
+  "author": "Melvin Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nostrapps/profile/issues"
+  },
+  "homepage": "https://github.com/nostrapps/profile#readme"
+}
