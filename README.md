@@ -1,2 +1,3 @@
-# spuxt
-spux template
+# profile
+
+nostr app
